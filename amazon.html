@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Amazon Navbar Clone</title>
+
+<style>
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+}
+
+/* Top Navbar */
+.navbar{
+    background-color:#131921;
+    color:white;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:10px 20px;
+}
+
+/* Logo */
+.logo{
+    font-size:22px;
+    font-weight:bold;
+    color:#ff9900;
+}
+
+/* Location */
+.location{
+    font-size:14px;
+}
+
+/* Search Bar */
+.search-bar{
+    display:flex;
+    flex:1;
+    margin:0 20px;
+}
+
+.search-bar select{
+    padding:8px;
+    border:none;
+}
+
+.search-bar input{
+    flex:1;
+    padding:8px;
+    border:none;
+}
+
+.search-bar button{
+    background-color:#febd69;
+    border:none;
+    padding:8px 15px;
+    cursor:pointer;
+}
+
+/* Right Menu */
+.nav-right{
+    display:flex;
+    gap:20px;
+    font-size:14px;
+}
+
+.nav-item span{
+    display:block;
+    font-weight:bold;
+}
+
+/* Bottom Navbar */
+.sub-navbar{
+    background-color:#313a44;
+    color:white;
+    display:flex;
+    gap:20px;
+    padding:8px 20px;
+    font-size:14px;
+}
+.sub-navbar div{
+    cursor:pointer;
+}
+</style>
+</head>
+
+<body>
+
+<!-- Top Navbar -->
+<div class="navbar">
+
+    <div class="logo">amazon.in</div>
+
+    <div class="location">
+        Deliver to<br>
+        <strong>India</strong>
+    </div>
+
+    <div class="search-bar">
+        <select>
+            <option>All</option>
+            <option>Electronics</option>
+            <option>Fashion</option>
+        </select>
+        <input type="text" placeholder="Search Amazon.in">
+        <button>🔍</button>
+    </div>
+
+    <div class="nav-right">
+        <div class="nav-item">
+            Hello, Sign in
+            <span>Account & Lists</span>
+        </div>
+
+        <div class="nav-item">
+            Returns
+            <span>& Orders</span>
+        </div>
+
+        <div class="nav-item">
+            🛒 Cart
+        </div>
+    </div>
+
+</div>
+
+<!-- Bottom Navbar -->
+<div class="sub-navbar">
+    <div>All</div>
+    <div>Today's Deals</div>
+    <div>Customer Service</div>
+    <div>Registry</div>
+    <div>Gift Cards</div>
+    <div>Sell</div>
+</div>
+
+</body>
+</html>
