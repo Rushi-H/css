@@ -1,0 +1,54 @@
+.navbar{
+background-color: rgb(192, 84, 160);
+display: flex;
+justify-content: space-evenly;
+
+}
+    
+a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    background-color: #fff;
+
+}
+
+li{
+    
+    list-style-type: none;
+    background-color: aqua;
+}
+.outer{
+    background-color: rgb(253, 134, 218);
+    height: 400px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner{
+    background-color: rgb(134, 76, 76);
+    height: 200px;
+    width: 200px;
+}
+@media (max-width: 500px){
+    .navbar .outer{
+        flex-direction: column;
+        background-color: aqua;
+    }
+    
+}
+@media (min-width: 600px) {
+     .outer{
+        background-color: green;
+     }
+}
+@media (max-width: 500px) {
+     .outer{
+        background-color: rgb(38, 0, 255);
+     }
+}
+@media (max-width: 500px) and (min-width: 300px) {
+     .outer{
+        background-color: rgb(238, 255, 0);
+     }
+}

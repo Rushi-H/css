@@ -1,0 +1,17 @@
+.box {
+    width: 100px;
+    height: 100px;
+      display: flex;
+    justify-content: center;  /* Horizontal center */
+    align-items: center;  
+}
+
+#box5 {
+    width: 50%;
+    z-index: 1;
+    height: 50%;
+    border: 3px solid black;
+    background-image: url("ice-cream.png");
+
+    background-size: cover
+}

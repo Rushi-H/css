@@ -1,0 +1,10 @@
+#footer{
+   height: 100px;
+   width: 100px  ;
+   color: white;
+   background-image: url("img.jpg");
+   background-size:contain;
+   position: fixed;
+   
+}
+
