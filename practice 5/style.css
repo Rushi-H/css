@@ -1,0 +1,52 @@
+
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader1 {
+    width: 100px;
+    height: 100px;
+    /* background-color: aqua; */
+    border-bottom: 5px solid black;
+    border-radius: 50%;
+    animation: loaderanimation 1.6s linear infinite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    
+}
+@keyframes loaderanimation {
+    0% {
+        transform: rotate(0deg);
+        border-bottom-color: red;
+    }
+    50% {
+        transform: rotate(180deg);
+        border-bottom-color: rgb(182, 182, 224);
+    }
+    100% {
+        transform: rotate(360deg);
+        border-bottom-color: green;
+    }
+}
+
+.loader2 {
+    width: 100px;
+    height: 100px;
+    /* background-color: aqua; */
+    border: 5px solid rgb(182, 182, 224);
+    border-bottom: 5px solid black;
+    border-radius: 50%;
+    animation: loaderanimation 1.6s linear infinite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    
+}

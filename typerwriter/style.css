@@ -1,0 +1,26 @@
+.typewriter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.typewriter p{
+    font-family: monospace;
+    font-size:1.5rem; 
+    margin-inline: auto;
+    border-right: 2px solid black;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 3s steps(22) infinite, blink 0.3s step-end infinite;
+        }
+@keyframes typing {
+    from { width: 0; }             
+    to { width: 100%; }
+}
+@keyframes blink {
+    from, to { border-color: transparent; }
+    50% { border-color: black; }
+}
+
+

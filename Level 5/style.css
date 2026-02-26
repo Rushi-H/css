@@ -1,0 +1,36 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    transition: all;
+    transition-duration: 300ms;
+    animation: coloranimation 3s ease-in 0s infinite normal;
+    position: relative;
+    /* rotate: y 45deg; */
+}
+div:hover{
+    background-color: red;
+    transform: scale(5) rotate(90deg);
+    /* height: 200px;
+    width: 200px; */
+}
+div:active{
+    background-color: green;
+    font-size: 20px;
+    animation: coloranimation 1s ease-in infinite;
+}
+@keyframes coloranimation{
+    0%{
+        background-color: red;
+        left: 0px;
+    }
+    50%{
+        background-color: blue;
+    }
+    100%{
+        background-color: green;
+        left: 100vw;
+    }
+}
+
