@@ -1,49 +1,204 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Amazon </title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
         <div class="navbar">
             <div class="nav-logo border">
                 <div class="logo"></div>
+            </div>
+            <!-- location -->
+            <div class="nav-address border">
+                <p class="add1">Deliver To</p>
+                <div class="add-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="add2">India</p>
                 </div>
-                <!-- location -->
-                <div class="nav-address border">
-                    <p class="add1">Deliver To</p>
-                    <div class="add-icon">
-                       <i class="fa-solid fa-location-dot"></i>
-                        <p class="add2">India</p>
-                    </div>
-                </div>
-                <!-- search -->
-                 <div class="nav-serarch">
-                    <select class="search-select">
-                        <option value="all">All</option>
-                        <!-- <option value="books">Books</option>
-                        <option value="electronics">Electronics</option>
-                        <option value="fashion">Fashion</option>
-                        <option value="home">Home & Kitchen</option>
-                        <option value="toys">Toys & Games</option>
-                        <option value="sports">Sports & Outdoors</option>
-                        <option value="beauty">Beauty & Personal Care</option> -->
-                        <option value="automotive">Automotive</option>
-                    </select>
-                    <input type="text" placeholder="search Amazon" class="search-input">
-                    <div class="search-icon"> <i class="fa-solid fa-magnifying-glass"></i></div>
+            </div>
+            <!-- search -->
+            <div class="nav-serarch">
+                <select class="search-select">
+                    <option value="all">All</option>
+                    <option value="books">Books</option>
+                    <option value="electronics">Electronics</option>
+                    <option value="fashion">Fashion</option>
+                    <option value="home">Home & Kitchen</option>
+                    <option value="toys">Toys & Games</option>
+                    <option value="sports">Sports & Outdoors</option>
+                    <option value="beauty">Beauty & Personal Care</option>
+                    <option value="automotive">Automotive</option>
+                </select>
+                <input type="text" placeholder="search Amazon" class="search-input">
+                <div class="search-icon"> <i class="fa-solid fa-magnifying-glass"></i></div>
 
 
-                 </div>
+            </div>
+
+            <div class="nav-signin border">
+                <p><span>Hello, Sign in</span></p>
+                <p class="nav-sec">Account & Lists</p>
+            </div>
+            <div class="nav-return border">
+                <p><span>Returns</span></p>
+                <p class="nav-sec">& Orders </p>
+            </div>
+            <div class="nav-cart"><i class="fa-solid fa-cart-shopping"></i>
+                Cart
+
+
+            </div>
+        </div>
+
+        <!-- 2nd header -->
+        <div>
+            <div class="panel">
+
+                <i class="fa-solid fa-bars"></i>
+                All
+
+                <div class="panel-items">
+                    <p>todays Deals</p>
+                    <p>Customer Service</p>
+                    <p>Gift Cards</p>
+                    <p>Registry</p>
+                    <p>Sell</p>
+
+                </div>
+
+                <div class="panel-deals">
+                    shop deals in Electronics, Computers
+                </div>
+            </div>
 
         </div>
-    </header>
+        <!-- Hero section -->
+        <div class="hero-section">
 
+            <div class="hero-messege">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero temporibus rem, consequuntur
+                    voluptates magni pariatur in quibusdam et nam <a href="">nobis.</a> </p>
+            </div>
+        </div>
+        <!-- Shop Section  -->
+        <div class="shop-section">
+            <div class="box1 box">
+                <div class="box-content">
+                    <h2>Daily Items</h2>
+                    <div class="box-img" style=" background-image: url('./Assets/box1_image.jpg');"></div>
+                    <p>See More</p>
+                </div>
+            </div>
+            <div class="box2 box">
+                <div class="box-content">
+                    <h2>aily Items</h2>
+                    <div class="box-img" style=" background-image: url('./Assets/box2_image.jpg');"></div>
+                    <p>See More</p>
+                </div>
+            </div>
+            <div class="box3 box">
+                <div class="box-content">
+                    <h2>Furniture</h2>
+                    <div class="box-img" style=" background-image: url('./Assets/box3_image.jpg');"></div>
+                    <p>See More</p>
+                </div>
+            </div>
+            <div class="box4  box">
+                <div class="box-content">
+                    <h2>Mobiles and Electronics</h2>
+                    <div class="box-img" style=" background-image: url('./Assets/box4_image.jpg');"></div>
+                    <p>See More</p>
+                </div>
+            </div>
+
+            <div class="box1 box">
+                <div class="box-content">
+                    <h2>Beauty and more</h2>
+                    <div class="box-img" style=" background-image: url('./Assets/box5_image.jpg');"></div>
+                    <p>See More</p>
+                </div>
+            </div>
+            <div class="box2 box">
+                <div class="box-content">
+                    <h2>Pet Care</h2>
+                    <div class="box-img" style=" background-image: url('./Assets/box6_image.jpg');"></div>
+                    <p>See More</p>
+                </div>
+            </div>
+            <div class="box3 box">
+                <div class="box-content">
+                    <h2>Toys </h2>
+                    <div class="box-img" style=" background-image: url('./Assets/box7_image.jpg');"></div>
+                    <p>See More</p>
+                </div>
+            </div>
+            <div class="box4  box">
+                <div class="box-content">
+                    <h2>Fastion and More</h2>
+                    <div class="box-img" style=" background-image: url('./Assets/box8_image.jpg');"></div>
+                    <p>See More</p>
+                </div>
+
+            </div>
+        </div>
+    </header>
+    <footer>
+
+
+        <div class="foot-panel1">
+            <i class="fa-solid fa-caret-up"></i>
+            <p></p>
+        </div>
+        <div class="foot-panel2">
+            <ul>
+                <p> Get to Know Us </p>
+                <a>About Amazon</a>
+                <a> Careers</a>
+                <a>  Press Releases</a>
+                <a>  Amazon Science</a>
+                      
+
+            </ul>
+            <ul>
+                <p> Get to Know Us </p>
+                <a>About Amazon</a>
+                <a> Careers</a>
+                <a>  Press Releases</a>
+                <a>  Amazon Science</a>
+                      
+
+            </ul>
+            <ul>
+                <p> Get to Know Us </p>
+                <a>About Amazon</a>
+                <a> Careers</a>
+                <a>  Press Releases</a>
+                <a>  Amazon Science</a>
+                      
+
+            </ul>
+            <ul>
+                <p> Get to Know Us </p>
+                <a>About Amazon</a>
+                <a> Careers</a>
+                <a>  Press Releases</a>
+                <a>  Amazon Science</a>
+                      
+
+            </ul>
+        </div>
+    </footer>
 
 
 </body>
+
 </html>
